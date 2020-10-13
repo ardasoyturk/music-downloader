@@ -1,0 +1,11 @@
+{
+  "name": "music-downloader",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "ytdl-core": "^3.3.0",
+    "ytpl": "^1.0.1",
+    "ytsr": "^1.0.4"
+  }
+}
