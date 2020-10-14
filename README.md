@@ -10,11 +10,12 @@ Multiple or single music downloader for YouTube. Works with Node.js
 
 # Examples
 ```js
-// Download songs by names
+// Download songs by names or links
 downloadSongsByNames(require('./songs.json'), path.join(__dirname, 'songs'));
 
-// Download a song from url
+// Download a song from url or name
 downloadSong('https://www.youtube.com/watch?v=dQw4w9WgXcQ', path.join(__dirname, 'songs'))
+downloadSong('Rick Astley - Never Gonna Give You Up', path.join(__dirname, 'songs'))
 
 // Download songs from a playlist
 downloadSongsByPlaylist('https://www.youtube.com/watch?v=bcvsE4C1JnU&list=OLAK5uy_mfK2qSpeFQVXAGuKwBCIg49bd-jCvNoSY', path.join(__dirname, 'songs'));
