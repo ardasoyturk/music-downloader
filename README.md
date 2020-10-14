@@ -6,6 +6,7 @@ Multiple or single music downloader for YouTube. Works with Node.js
 
 # Requirements
 [Node.js](https://nodejs.org) >= 14.0.0 (because of ?. statements)
+
 [npm](https://npmjs.com) (shipped with Node.js)
 
 # Examples
